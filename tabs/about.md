@@ -11,5 +11,5 @@ title: About
 $ env |grep SHELL
 SHELL=/usr/local/bin/bash
 cat Mataya.txt
-Just another IT Security Enthusiast, member of Cntr0llz CTF team, wanna become a bounty hunter and malware analyst for that there is much to learn..
 ```
+Just another IT Security Enthusiast, member of 'Cntr0llz' CTF team, wanna become a bounty hunter and malware analyst for that there is much to learn...
