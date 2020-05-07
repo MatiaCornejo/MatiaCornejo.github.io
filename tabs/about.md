@@ -1,5 +1,5 @@
 ---
-title: About
+title: Whoami
 
 # The About page
 # v2.0
@@ -10,6 +10,7 @@ title: About
 ```terminal
 $ env |grep SHELL
 SHELL=/usr/local/bin/bash
-cat Mataya.txt
+whoami
+Mataya 
 ```
 Just another IT Security Enthusiast, member of `Cntr0llz` CTF team, wanna become a bounty hunter and malware analyst for that there is much to learn...
