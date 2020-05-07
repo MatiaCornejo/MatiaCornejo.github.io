@@ -39,7 +39,7 @@ A minimal, sidebar, responsive web design Jekyll theme, focusing on text present
 
 ### Prerequisites
 
-Follow the [Jekyll Docs](https://jekyllrb.com/docs/installation/) to complete the installtion of basic environment (`Ruby `, `RubyGems` and `Bundler`). 
+Follow the [Jekyll Docs](https://jekyllrb.com/docs/installation/) to complete the installtion of basic environment (`Ruby `, `RubyGems` and `Bundler`).
 
 To improve the writing experience, we need to use some script tools. If your machine is running Debian or macOS, make sure that [GNU coreutils](https://www.gnu.org/software/coreutils/) is installed. Otherwise, install by:
 
@@ -93,7 +93,7 @@ jekyll-theme-chirpy/
 ├── .github         # remove this, too
 ├── assets      
 ├── tabs
-│   └── about.md    # the ABOUT page
+│   └── whoami.md    # the ABOUT page
 ├── .gitignore
 ├── 404.html
 ├── Gemfile
@@ -120,12 +120,12 @@ As mentioned above, some files or directories should be removed from your repo:
 Generally, go to `_config.yml` and configure the variables as needed. Some of them are typical options:
 
 * `url`
-	
+
 	Set to your website url and there should be no slash symbol at the tail. Format: `<protocol>://<domain>`.
 
 
 * `avatar`
-    
+
     It defines the image file location of avatar. The sample image is `/assets/img/sample/avatar.jpg`, and should be replaced by your own one(a square image). Notice that a huge image file will increase the load time of your site, so keep your avatar image size as samll as possible(may be *<https://tinypng.com/>* will help).
 
 * `timezone`
@@ -133,9 +133,9 @@ Generally, go to `_config.yml` and configure the variables as needed. Some of th
     To ensure that the posts' release date matches the city you live in, please modify the field `timezone` correctly. A list of all available values can be found on [TimezoneConverter](http://www.timezoneconverter.com/cgi-bin/findzone/findzone) or [Wikipedia](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones).
 
 * `theme_mode`
-  
+
 	There are three options for the theme color scheme:
-	
+
 	- **dual** 	- The default color scheme will follow the system settings, but if the system does not support dark mode, or the browser does not support `Media Queries Level 5`, the theme will be displayed as `light` mode by default. Anyway, the bottom left corner of the Sidebar will provide a button for users to switch color schemes.
 
 	- **dark**	- Always show dark mode.
@@ -205,7 +205,7 @@ Updated the Categories, Tags, Lastmod for post(s).
 
 For security reasons, GitHub Pages runs on `safe` mode, which means the third-party Jekyll plugins or custom scripts won't work. If you want to use any another plugins that not in the [whitelist](https://pages.github.com/versions/), **you have to generate the site locally rather than on GitHub Pages**.
 
-**1**. Browse to GitHub website, create a brand new repo named: 
+**1**. Browse to GitHub website, create a brand new repo named:
 
 |Site Type | Repo's Name|
 |:---|:---|

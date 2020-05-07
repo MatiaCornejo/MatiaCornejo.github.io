@@ -95,7 +95,7 @@ jekyll-theme-chirpy/
 ├── .github         # remove this, too
 ├── assets      
 ├── tabs
-│   └── about.md    # the ABOUT page
+│   └── whoami.md    # the ABOUT page
 ├── .gitignore
 ├── 404.html
 ├── Gemfile
@@ -122,7 +122,7 @@ jekyll-theme-chirpy/
 根据个人需要去修改 `_config.yml` 的变量，大部分都有注释介绍用法。
 
 * 头像
-    
+
     示例的头像文件放置在：`/assets/img/sample/avatar.jpg`. 把它换成你自己的头像，路径不限定，越小越好。(压缩图像体积可上这个网站：*<https://tinypng.com/>* ).
 
 * 时区
@@ -183,7 +183,7 @@ $ bash tools/init.sh
 
 由于安全原因，GitHub Pages 不允许第三方插件运行，如果你想突破规则，就要本地构建站点内容。
 
-**1**. 到 GitHub 网页，创建一个新的仓库，根据以下规则命名: 
+**1**. 到 GitHub 网页，创建一个新的仓库，根据以下规则命名:
 
 |站点类型 | 仓库名称|
 |:---|:---|
