@@ -7,5 +7,10 @@ title: About
 # © 2017-2019 Cotes Chung
 # MIT License
 ---
+```terminal
+$ env |grep SHELL
+SHELL=/usr/local/bin/bash
+cat Mataya.txt
+Just another IT Security Enthusiast, member of Cntr0llz CTF team, wanna become a bounty hunter and malware analyst for that there is much to learn..
 
-> **Note**: Add Markdown syntax content to file `tabs/about.md` and it will show up on this page.
+```
